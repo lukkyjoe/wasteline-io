@@ -11,6 +11,6 @@ let initialState = {
 let store = configureStore(initialState);
 render(
   <Provider store={store}>
-    <App/>
+    <App />
   </Provider>
   , document.getElementById('app'));

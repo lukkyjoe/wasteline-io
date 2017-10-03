@@ -12,7 +12,7 @@ class App extends Component {
 
   render() {
     return (
-    <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+    <div style={{display: 'flex', flexDirection: 'column'}}>
       <h1>{this.state.name}</h1>  
       <iframe 
         width="560" height="315" src="https://www.youtube.com/embed/j5--Gg_l8A0" 
